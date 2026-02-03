@@ -4,7 +4,7 @@ This protocol demonstrates how to buffer data that needs to be re-used across mu
 
 Following different use-case are demonstrated:
 
-11. Store and Share: Remember/buffer data across multiple runs of QActions simply by storing the data into standalone and/or table parameter(s).
+1. Store and Share: Remember/buffer data across multiple runs of QActions simply by storing the data into standalone and/or table parameter(s).
 	This will cause some extra load due to the need to serialize and deserialize the data and the required parameter gets and sets.
 	In most cases, this is sufficient as the above mentioned performance impact will be neglectable compared to other parts such as datasource access, getting and setting actual data parameters, etc.
 	This is the best and easiest option in most cases.
