@@ -21,7 +21,7 @@ This is the only option allowing to store data across element restarts by saving
 
 ### Cache data for quick access across multiple runs of the same QAction
 
-Caching data within SLScripting memory can be used when [Store and share using parameters](xref:#store-and-share-using-parameters) method is not performant enough.
+Caching data within SLScripting memory can be used when '[Store and share using parameters](xref:#store-and-share-using-parameters)' method is not performant enough.
 
 Some logic will need to take care of refreshing the cache when needed (e.g. after startup).
 	
