@@ -31,7 +31,7 @@ This method is typically only required when needing to share data across QAction
 
 This requires the use of a static field within a static class which means the field will be shared accross all elements using the same connector and running on the same SLScripting process. As a consequence, A ```ConcurrentDictionary``` needs to be used in order to
 
-- Make sure cache from different elements won't interfere with each other. This can be done by including both **Root Dma ID** and **Element ID** to the key of the ```ConcurrentDictionary```.
+- Make sure cache from different elements won't interfere with each other. This can be done by including both **Root DMA ID** and **Element ID** to the key of the ```ConcurrentDictionary```.
 - Allow thread-safe access from multiple QActions.
 
 Additionally, some logic needs to take care of cleaning up cached data when elements are stopped/deleted to avoid a memory leak and after startup to avoid stale data across element restarts.
