@@ -5,7 +5,7 @@
 This connector demonstrates how to buffer data that needs to be re-used across multiple QAction runs on a given element.
 
 > [!NOTE]
-> This only covers sharing data accross QAction runs within your own element. For data sharing accross different element, see the [InterApp framework](aka.dataminer.services/InterApp).
+> This only covers sharing data accross QAction runs within your own element. For data sharing accross different element, see the [InterApp framework](https://aka.dataminer.services/InterApp).
 
 ## Use Cases
 
