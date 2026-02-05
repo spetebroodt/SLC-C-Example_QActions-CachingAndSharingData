@@ -34,6 +34,6 @@ This requires the use of a static field within a static class which means the fi
 - Make sure cache from different elements won't interfere with each other. This can be done by including both **Root DMA ID** and **Element ID** to the key of the `ConcurrentDictionary`.
 - Allow thread-safe access from multiple QActions.
 
-Additionally, some logic needs to take care of cleaning up cached data when elements are stopped/deleted to avoid a memory leak and after startup to avoid stale data across element restarts.
+For more information regarding QAction (static) fields, refer to [QAction member fields](https://aka.dataminer.services/QActionMemberFields).
 
- **Important**: The use of static fields to share data should only be used to share data between QActions of the same element. Cross-element data sharing using static fields should not be done. For more information, refer to [QAction member fields](https://aka.dataminer.services/QActionMemberFields).
+Additionally, some logic needs to take care of cleaning up cached data when elements are stopped/deleted to avoid a memory leak and after startup to avoid stale data across element restarts.

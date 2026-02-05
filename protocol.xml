@@ -63,7 +63,7 @@ Following different use-case are demonstrated:
 	Typically only required when needing to share data across QActions triggered on table parameters (one on table level, one on row level).
 	A ConcurrentDictionary needs to be used to allow safe access from multiple QActions at the same time and also because multiple elements will be accessing the same ConcurrentDictionary instance.
 	Some logic needs to take care of cleaning up cached data when elements are stopped/deleted to avoid a memory leak and after startup to avoid stale data across element restarts.
-	Important: The use of static fields to share data should only be used to share data between QActions of the same element. Cross-element data sharing using static fields should not be done. For more information, refer to https://aka.dataminer.services/QActionMemberFields.
+	For more information regarding QAction (static) fields, refer to https://aka.dataminer.services/QActionMemberFields.
 	]]>
 				</DefaultValue>
 			</Interprete>
