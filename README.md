@@ -25,7 +25,7 @@ Caching data within SLScripting memory can be used when '[Store and share using 
 
 Some logic will need to take care of refreshing the cache when needed (e.g. after startup).
 
-### Cache and share data for quick access across multiple QActions of the same element
+### Cache and share data for quick access across multiple QActions
 
 This method is typically only required when needing to share data across QActions triggered on table parameters (one on table level, one on row level).
 
