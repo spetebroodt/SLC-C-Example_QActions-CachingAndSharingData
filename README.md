@@ -36,4 +36,7 @@ This requires the use of a static field within a static class. This means that t
 
 For more information regarding QAction (static) fields, see [QAction member fields](https://aka.dataminer.services/QActionMemberFields).
 
-Additionally, some logic needs to take care of cleaning up cached data when elements are stopped/deleted to avoid a memory leak and, after startup, stale data across element restarts.
+Additionally, some logic needs to take care of cleaning up cached data
+
+- when the element is stopped/deleted to avoid a memory leak, and
+- after startup to prevent stale data across element restarts.
