@@ -2,7 +2,7 @@
 
 ## About
 
-This package contains a connector that demonstrates how to buffer data that needs to be re-used across multiple QAction runs on a given element.
+This connector demonstrates how to buffer data that needs to be re-used across multiple QAction runs on a given element.
 
 > [!NOTE]
 > This connector only shares data across QAction runs **within your own element**. For data sharing across different elements, see [About the InterApp framework](https://aka.dataminer.services/InterApp).
